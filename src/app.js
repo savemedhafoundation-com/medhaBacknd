@@ -82,7 +82,7 @@ if (process.env.NODE_ENV === 'production' && hasClientBuild) {
 } else {
   app.get('/', (_req, res) => {
     res.status(200).json({
-      message: 'Natural Immunotherapy API is running',
+      message: 'Medha Clinic API is running',
       docs: '/api/health',
     });
   });
