@@ -23,7 +23,7 @@ const saveUploadFile = async file => {
   ensureCloudinary();
 
   const result = await uploadBuffer(file.buffer, {
-    folder: 'nit-blogs',
+    folder: 'medhaClinic-blogs',
     resource_type: 'image',
     use_filename: true,
     unique_filename: true,
